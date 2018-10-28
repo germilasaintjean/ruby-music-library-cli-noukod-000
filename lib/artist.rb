@@ -1,5 +1,5 @@
 class Artist
-  
+
   extend Concerns::Findable
 
   attr_accessor :name
@@ -41,5 +41,5 @@ class Artist
   def genres
     songs.collect{ |s| s.genre }.uniq
   end
-  
+
 end
