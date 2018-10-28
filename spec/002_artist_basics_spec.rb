@@ -1,9 +1,6 @@
 require "spec_helper"
 
 describe "Artist" do
-  context "properties"do
-    it 'has a artist'
-  end
   end
   let(:artist) { Artist.new("Neutral Milk Hotel") }
 
