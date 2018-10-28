@@ -1,7 +1,6 @@
 require "spec_helper"
 
 describe "Artist" do
-  end
   let(:artist) { Artist.new("Neutral Milk Hotel") }
 
   describe "#initialize" do
